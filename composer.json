@@ -1,0 +1,26 @@
+{
+    "name": "talger/kohana2-autoloader",
+    "description": "Kohana 2.x autoloader",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Tálos Gergely",
+            "email": "gergely@talos.hu"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Talger\\Kohana\\Autoloader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Talger\\Kohana\\Autoloader\\Tests\\": "tests/"
+        }
+    }
+}
